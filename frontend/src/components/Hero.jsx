@@ -156,29 +156,6 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* 신뢰 지표 */}
-        <div className="mt-10 inline-flex items-center gap-6 md:gap-8 bg-white/80 backdrop-blur px-8 py-4 rounded-full shadow-sm border border-[#F3EAE1]">
-          <div className="text-left">
-            <div className="text-xl md:text-2xl font-black text-[#2C160D]">
-              1,200+
-            </div>
-            <div className="text-[10px] text-[#8B6B4A]">채용 중인 기업</div>
-          </div>
-          <div className="w-px h-8 bg-[#EFE4D8]" />
-          <div className="text-left">
-            <div className="text-xl md:text-2xl font-black text-[#2C160D]">
-              8,500+
-            </div>
-            <div className="text-[10px] text-[#8B6B4A]">함께하는 구직자</div>
-          </div>
-          <div className="w-px h-8 bg-[#EFE4D8]" />
-          <div className="text-left">
-            <div className="text-xl md:text-2xl font-black text-[#2C160D]">
-              AI
-            </div>
-            <div className="text-[10px] text-[#8B6B4A]">맞춤 매칭 추천</div>
-          </div>
-        </div>
       </div>
     </section>
   );
