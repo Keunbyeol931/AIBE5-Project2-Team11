@@ -4,7 +4,7 @@ import matchImg from "../assets/images/main/featureSection/match.jpg";
 
 export default function FeatureSection() {
   return (
-    <section className="bg-[#FFF4F1] py-16">
+    <section className="bg-[#FFF4F1] pt-16 pb-8">
       <div className="max-w-6xl mx-auto px-4">
         {/* 첫 번째 행: 맞춤형 매칭 시스템, 커뮤니티 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
@@ -35,7 +35,7 @@ export default function FeatureSection() {
         </div>
 
         {/* 두 번째 행: 공지사항, 채용공고 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* 3. 공지사항 영역 */}
           <Link to="/notice" className="bg-[#E8D5F2] rounded-3xl p-6 flex flex-col justify-center hover:shadow-lg transition-shadow cursor-pointer">
             <FileText className="w-8 h-8 text-purple-700 mb-3" />
